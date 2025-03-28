@@ -53,6 +53,14 @@ Access the website at `http://localhost/`.
 
 # 2️⃣ Automated Deployment with GitHub Actions
 
+## Prerequisites
+
+1. AWS account and cli  
+2. Docker 
+3. Eksctl
+4. GitHub Account  
+Let’s begin by setting up all the necessary resources: (https://github.com/tssundarraj/Barista-Cafe---Dockerized-Static-Website-Deployment-to-AWS-EKS/blob/main/prerequisites.md))
+
 ## Step 4: Push the Image to AWS ECR
 
 #### **1. Authenticate Docker with AWS ECR**
