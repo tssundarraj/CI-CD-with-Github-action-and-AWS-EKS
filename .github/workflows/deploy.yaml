@@ -48,8 +48,8 @@ jobs:
 
     - name: Deploy Manifests to EKS
       run: |
-        kubectl apply -f manifests /app.yaml
-        kubectl apply -f manifests /service.yaml
+        kubectl apply -f k8s/app.yaml
+        kubectl apply -f k8s/service.yaml
 
     - name: Update Image in Deployment
       run: |
