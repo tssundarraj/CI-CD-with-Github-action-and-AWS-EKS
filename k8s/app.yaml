@@ -19,7 +19,7 @@ spec:
         image: 992382840772.dkr.ecr.eu-north-1.amazonaws.com/docker:latest  # Default placeholder; will be updated in pipeline
         imagePullPolicy: Always
         ports:
-        - containerPort: 8080
+        - containerPort: 80
   strategy:
     type: RollingUpdate
     rollingUpdate:
