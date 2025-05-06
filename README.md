@@ -1,7 +1,7 @@
 # Barista Cafe - Dockerized Static Website Deployment to AWS EKS
 
 ## Overview
-This repository contains a static website (Barista Cafe) that is served using **Nginx** within a Docker container. The project is configured to be built and deployed to **AWS Elastic Kubernetes Service (EKS)** using **GitHub Actions** and **AWS Elastic Container Registry (ECR)**.   
+This repository contains a static website (Barista Cafe) that is served using **Nginx** within a Docker container. The project is configured to be built and deployed to **AWS Elastic Kubernetes Service (EKS)** using **GitHub Actions** and **AWS Elastic Container Registry (ECR)**..   
 ![alt text](image-3.png) 
 
 ![alt text](image-2.png)  
