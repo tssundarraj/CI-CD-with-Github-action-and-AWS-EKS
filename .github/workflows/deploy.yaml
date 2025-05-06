@@ -8,7 +8,7 @@ on:
 env:
   ECR_REPOSITORY: docker
   EKS_CLUSTER_NAME: my-cluster
-  AWS_REGION: us-norht-1
+  AWS_REGION: us-north-1
   ECR_REGISTRY: 992382840772.dkr.ecr.eu-north-1.amazonaws.com/docker
 
 jobs:
