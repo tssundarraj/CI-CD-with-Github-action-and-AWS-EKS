@@ -1,17 +1,14 @@
-
 apiVersion: apps/v1 
 kind: Deployment
 metadata:
   name: kubernetes-demo-hello-app
   labels: 
-     app: hello-app
-
+    app: hello-app
 spec:
   replicas: 1 
   selector:
     matchLabels:
       app: hello-app
-
   template:
     metadata:
       labels:
@@ -19,7 +16,7 @@ spec:
     spec:
       containers:
       - name: hello-app
-        image: DOCKER_IMAGE
+        image: 992382840772.dkr.ecr.eu-north-1.amazonaws.com/docker:latest  # Default placeholder; will be updated in pipeline
         imagePullPolicy: Always
         ports:
         - containerPort: 8080
